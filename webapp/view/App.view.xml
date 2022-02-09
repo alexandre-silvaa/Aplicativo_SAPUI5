@@ -1,0 +1,12 @@
+<mvc:View
+   controllerName="sap.ui.demo.browser.controller.App"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+    <Shell>
+		<Page title="{i18n>homePageTitle}">
+			<content>
+				<mvc:XMLView viewName="sap.ui.demo.browser.view.OrdersList"/>
+			</content>
+		</Page>
+	</Shell>
+</mvc:View>
